@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgs/cabecera.jpg);
+    background-position: 100%;
+    background-size: cover;
+    padding: 7% 0%;
+}
+
+#logoBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo {
+    width: 25%;
+}
+
+#subLogo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #ececec;
+    margin: 5% 0%;
+}
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 25%;
+}
+
+#nav a {
+    font-weight: 200;
+    font-size: 20px;
+    color: #000;
+    background-color: #ececec;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
